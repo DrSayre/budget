@@ -20,11 +20,11 @@ Or install it yourself as:
 
 Declare an instance of the object like normal:
 
-foo = Budget.new
+   foo = Budget.new
 
 Add money coming in, or income, like this:
 
-foo.add_income(Amount, Memo, Date)
+   foo.add_income(Amount, Memo, Date)
 
 Amount: Must be a numeric value
 Memo: Defaults to "Income Item x" where x is the number of income records
@@ -32,20 +32,20 @@ Date: Defaults to now
 
 Add money going out, or expenses, like this:
 
-foo.add_expense(Amount, Memo, Date)
+   foo.add_expense(Amount, Memo, Date)
 
 Parameters behave in the same way as add_income function
 
 Set the month and year of budget like this:
 
-foo.set_month(Month, Year)
+   foo.set_month(Month, Year)
 
 Month: Must be an integer between 1 and 12
 Year: Must be an integer
 
 Check to see if budget is complete:
 
-foo.complete?
+   foo.complete?
 
 Returns true if total income equals total expenses, otherwise returns false.  The goal should be to make total income and total expenses equal so budget is a zero sum budget.
 

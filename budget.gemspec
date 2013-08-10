@@ -5,15 +5,14 @@ require 'budget/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "budget"
-  gem.version       = Budget::VERSION
+  gem.version       = '1.0.0'
   gem.authors       = ["DrSayre"]
+  gem.date	    = '2013-09-08'
   gem.email         = ["DrSayre2002@yahoo.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = 'A class to create a budget'
+  gem.summary	    = 'A class to create a budget'
+  gem.homepage      = "https://github.com/DrSayre/budget"
 
-  gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
+  gem.files         = ["lib/budget.rb"]
+  gem.test_files    = ["test/budget_test.rb"]
 end
