@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["DrSayre"]
   gem.date	    = '2013-09-08'
   gem.email         = ["DrSayre2002@yahoo.com"]
-  gem.description   = 'A class to create a budget'
-  gem.summary	    = 'A class to create a budget'
+  gem.description   = 'Easy to use class to create a personal monthly budget.'
+  gem.summary	    = 'Easy to use class to create a personal monthly budget.'
   gem.homepage      = "https://github.com/DrSayre/budget"
 
   gem.files         = ["lib/budget.rb"]
