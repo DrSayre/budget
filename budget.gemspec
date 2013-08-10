@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/DrSayre/budget"
 
   gem.files         = ["lib/budget.rb"]
-  gem.test_files    = ["test/budget_test.rb"]
+  gem.test_files    = ["test/test_budget.rb"]
 end
